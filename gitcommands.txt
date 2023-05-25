@@ -1,0 +1,16 @@
+// learning git
+//link local repository to remote
+git remote add origin [link]
+//add all repository files
+git add .
+//push to master branch
+git push -u origin master
+
+
+git checkout -b bugfix //open new branch
+git checkout -d hotfix //delete branch
+
+git commit -m "commit message"
+git push origin your-new-branch
+git checkout master
+git merge hotfix
