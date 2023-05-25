@@ -4,7 +4,9 @@ git remote add origin [link]
 //add all repository files
 git add .
 //push to master branch
-git push -u origin master
+git push -u origin master //push to master (probably dont do?)
+
+git commit -a -m 'Make other changes'
 
 
 git checkout -b bugfix //open new branch
